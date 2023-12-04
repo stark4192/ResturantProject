@@ -1,0 +1,376 @@
+body {
+    margin: 0%;
+    background-color: grey;
+
+}
+
+/*header file by MONSOON MAURYA */
+.header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.8;
+    width: 100%;
+
+}
+
+.logo {
+    width: 10px;
+}
+
+.image_logo {
+    height: 100%;
+    width: 150px;
+    margin-left: 0px;
+    padding-top: 0px;
+    display: block;
+}
+
+.s1-logo {
+    height: 582px;
+    width: 5%;
+}
+
+.search-container {
+    
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+    margin-left :10px;
+    padding: auto;
+    flex: 1;
+    left:0;
+    border: 5px solid;
+    border-color: #01c0ff;
+}
+
+form.example input[type=text] {
+    margin: 10px;
+    height: 70%;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    font-weight: bold;
+    opacity: 0.5;
+    color: black;
+    margin-right: 0;
+}
+
+form.example input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: black;
+  }
+
+form.example input:hover {
+    transition: .5s;
+    background: #82c7ff;
+}
+
+
+form.example button {
+    width: 20%;
+    height:70%;
+    margin-left: 0;
+    margin-top: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    display: block;
+
+}
+
+form.example button:hover {
+    transition: .5s;
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.username-container{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-left :10px;
+    margin-right :10px;
+    flex: 1;
+    border: 5px solid;
+    border-color: #01c0ff;
+
+}
+.username {
+    text-decoration: solid;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    opacity: 5;
+    z-index: 1;
+    margin: auto;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.right-header-container{
+    width:25%;
+    flex: 1;
+}
+
+.other-container
+{
+    margin-left: auto;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;  
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.other-container > button{
+    margin-left: 5%;
+}
+
+.userLogin {
+    border: none;
+    color: rgb(9, 12, 219);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    height: 20%;
+    border: 1px solid;
+}
+
+.userLogin:hover {
+    transition: .5s;
+    color: #01c0ff;
+    background-color: white;
+
+}
+
+.userLogin .usertext {
+    visibility: hidden;
+    margin-top: 35px;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    right: 9.3%;
+}
+
+.userLogin:hover .usertext {
+    visibility: visible;
+}
+
+.userLogout {
+    border: none;
+    color: rgb(9, 12, 219);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    height: 20%;
+    border: 1px solid;
+}
+
+.userLogout:hover {
+    transition: .5s;
+    color: #01c0ff;
+    background-color: white;
+
+}
+
+.userLogout .usertext {
+    visibility: hidden;
+    margin-top: 35px;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    right: 9.3%;
+}
+
+.userLogout:hover .usertext {
+    visibility: visible;
+}
+
+.cart {
+    border: 1px solid red;
+    border: 1px solid;
+    color: rgb(9, 12, 219);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    height: 20%;
+}
+
+.cart:hover {
+    transition: .5s;
+    color: #01c0ff;
+    background-color: white;
+}
+.cart-image {
+    z-index: 1; /* Show cart image on top */
+    transform: rotateY(0deg); /* Initially, show cart image */
+  }
+  
+  .carttexts {
+    transform: rotateY(180deg); /* Initially, hide cart count */
+  }
+  
+  .cart:hover .cart-image {
+    transform: rotateY(-180deg); /* Flip to show cart count */
+  }
+  
+  .cart:hover .carttexts {
+    transform: rotateY(0deg); /* Flip to show cart count */
+  }
+
+.cart .carttext {
+    visibility: hidden;
+    margin-top: 35px;
+    width: 85px;
+    right: 4.5%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.cart:hover .carttext {
+    visibility: visible;
+}
+
+
+.bar {
+    border: none;
+    color: rgb(9, 12, 219);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    height: 20%;
+    border: 1px solid;
+}
+
+.bar:hover {
+    transition: .5s;
+    color: #01c0ff;
+    background-color: white;
+}
+
+.bar .bartext {
+    visibility: hidden;
+    margin-top: 30px;
+    right: 0px;
+    width: 8%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 5px 0; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* justify-content: center; */
+}
+
+.bar:hover .bartext {
+    visibility: visible;
+}
+
+
+.inside-div {
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    /* flex: 1; */
+    border-bottom: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.inside-div:hover {
+    height: 40px;
+    width: 100%;
+    transition: 1;
+    background-color: #01c0ff;
+}
+
+.userLogin.is-hidden {
+    display: none;
+}
+
+.userLogout.is-hidden {
+    display: none;
+}
+
+
+/* Define a media query for smaller screens */
+@media screen and (max-width: 700px) {  
+    /* Update styles for smaller screens */
+    .header{
+    width: 50%;
+    background-color: #fff;
+    height: auto;
+    flex-direction: column;
+    }
+  
+    /* .logo {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* Adjust other styles as needed */
+    /* .other{
+        width:100%;
+    } */ 
+  }
+  
