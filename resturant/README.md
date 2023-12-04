@@ -1,3 +1,41 @@
+# Epicurean Symphony Restaurant Website
+
+This repository contains the code for the Epicurean Symphony restaurant website, showcasing its menu, events, ambiance, and sustainability initiatives.
+
+## Description
+
+Epicurean Symphony is a fictitious restaurant project demonstrating front-end development skills. The web application provides users with information about the restaurant, its menu, upcoming events, reviews, and online presence.
+
+## Features
+
+- View the restaurant's menu categorized by appetizers, entrees, indulgences, and seasonal specials.
+- Explore details about the chef, awards, ambiance, and sustainability initiatives.
+- Check out upcoming events hosted by the restaurant.
+- Read customer reviews about the restaurant's offerings.
+- Access the restaurant's online presence via its website and social media links.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React.js
+- Chakra UI
+- JSON data handling
+
+## Installation
+
+1. Clone the repository: `git clone [repository_url]`
+2. Navigate to the project directory: `cd epicurean-symphony`
+3. Install dependencies: `npm install`
+
+## Usage
+
+Once the installation is complete, start the development server:
+
+-bash
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
