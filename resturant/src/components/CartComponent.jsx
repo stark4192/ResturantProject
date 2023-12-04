@@ -1,5 +1,5 @@
 import { React} from "react";
-import useCart  from '../hooks/useCartContext';
+import {useCart}  from '../hooks/useCartContext';
 import { Button, Badge, Text, Box } from "@chakra-ui/react";
 import { FaShoppingCart } from "react-icons/fa";
 
